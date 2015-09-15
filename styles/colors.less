@@ -1,50 +1,31 @@
-// These colors are specific to the theme. Do not use in a package!
-// Config
-@syntax-hue: 220;
-@syntax-saturation: 24%;
-@syntax-brightness: 20%;
-// Base colors
-@syntax-base-accent-color: fade(@syntax-base-text-color, 50%);
-@syntax-base-background-color: @very-dark-gray;
-@syntax-base-text-color: @light-gray;
-@syntax-base-guide-color: fade(@syntax-base-text-color, 15%);
-// Colors: Mix Base16 Tomorrow with Theme hue
-@syntax-mix-base: hsl(@syntax-hue, 100%, 66%);
-@syntax-mix-grey: 12%;
-@syntax-mix-color: 0;
-/**
- * Default colors
- */
-@red: @red_500;
-@pink: @pink_600;
-@purple: @purple_500;
-@dark-purple: @dark_purple_500;
-@indigo: @indigo_500;
-@blue: @blue_500;
-@light-blue: @light_blue_500;
-@cyan: @cyan_500;
-@teal: @teal_500;
-@green: @green_500;
-@light-green: @light_green_500;
-@lime: @lime_500;
-@yellow: @yellow_500;
-@amber: @amber_500;
-@orange: @orange_500;
-@deep-orange: @deep_orange_500;
-@brown: @brown_500;
-// Start full gray
-@very-light-gray: @gray_200;
-@light-gray: @gray_300;
-@gray: @gray_500;
-@dark-gray: @gray_700;
-@very-dark-gray: @gray_900;
-// End full gray
-@blue-gray: @blue_gray_500;
-@black: @black_1000;
-@white: @black_1000;
-/**
- * Google Guideline
- */
+
+// Config ---------------------------------------------------------------------
+@syntax-hue: 0;
+@syntax-saturation: 0;
+@syntax-brightness: 12%;
+
+// Base colors ----------------------------------------------------------------
+@syntax-accent: @indigo_500;
+@syntax-guide: fade(@syntax-fg, 15%);
+@syntax-fg: @mono-1;
+@syntax-bg: @gray_900;
+
+// Monochrome -----------------------------------------------------------------
+@mono-1: @blue_gray_300; // default text
+@mono-2: @blue_gray_500;
+@mono-3: @blue_gray_700;
+
+// Colors ---------------------------------------------------------------------
+@hue-1: @cyan_500; // <-cyan
+@hue-2: @blue_500; // <-blue
+@hue-3: @purple_500; // <-purple
+@hue-4: @green_500; // <-green
+@hue-5: @red_300; // <-red 1
+@hue-5-2: @red_700; // <-red 2
+@hue-6: @orange_300; // <-orange 1
+@hue-6-2: @orange_700; // <-orange 2
+
+// Google Guideline -----------------------------------------------------------
 @red_50: #fde0dc;
 @red_100: #f9bdbb;
 @red_200: #f69988;

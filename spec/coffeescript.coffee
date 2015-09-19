@@ -1,4 +1,4 @@
-grade = (student, period=(if b? then 7 else 6), messages={"A": "Excellent"}) ->
+grade = (student, period = (if b? then 7 else 6), messages = {"A": "Excellent"} ) ->
   if student.excellentWork
     "A+"
   else if student.okayStuff
@@ -11,9 +11,9 @@ square = (x) -> x * x
 two = -> 2
 
 math =
-  root:   Math.sqrt
+  root: Math.sqrt
   square: square
-  cube:   (x) -> x * square x
+  cube: (x) -> x * square x
 
 race = (winner, runners...) ->
   print winner, runners
@@ -25,8 +25,8 @@ class Animal extends Being
     alert @name + " moved #{meters}m."
 
 hi = `function() {
-  return [document.title, "Hello JavaScript"].join(": ");
-}`
+  return [document.title, "Hello JavaScript"].join(": ") ;
+} `
 
 heredoc = """
 CoffeeScript subst test #{ 0o010 + 0xf / 0b10 + "nested string #{ /\n/ }"}
@@ -38,5 +38,5 @@ Released under the MIT License
 ###
 
 OPERATOR = /// ^ (
-?: [-=]>             # function
+? : [ -= ] > # function
 ) ///

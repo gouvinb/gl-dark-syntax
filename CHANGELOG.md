@@ -10,4 +10,9 @@
 - [ ] TODO: update ./README.md screenshots
 
 # 2.0.1
-- Optimize oranges and purple colors for better display
+- Optimize orange and purple colors for better display
+
+# 2.1.0
+- Update color for more visibility
+- Beautify file
+- Add more contrast

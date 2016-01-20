@@ -1,6 +1,13 @@
 # Changelog
 ## 2.1.1
 - Update base
+- Add Amber and Deep orange (testing)
+- *Beautify code*
+- [ ] TODO: ./styles/syntax-variables.less
+- [ ] TODO: update ./README.md screenshots
+
+## 2.1.1
+- Update base
 
 ## 2.1.0
 - Update color for more visibility
@@ -13,8 +20,6 @@
 ## 2.0.0
 - Update base
 - Rework palette (better display)
-- [ ] TODO: ./styles/syntax-variables.less
-- [ ] TODO: update ./README.md screenshots
 
 ## First Release
 - Add one-dark-syntax base

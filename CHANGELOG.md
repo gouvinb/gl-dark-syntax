@@ -1,6 +1,5 @@
 # Changelog
-## 2.1.1
-- Update base
+## 2.2.0- Update base
 - Add Amber and Deep orange (testing)
 - *Beautify code*
 - [ ] TODO: ./styles/syntax-variables.less
